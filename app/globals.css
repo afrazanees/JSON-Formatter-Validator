@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+/* Slightly nicer scrollbars for the code areas in dark mode. */
+textarea,
+.scroll-area {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 transparent;
+}
